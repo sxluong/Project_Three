@@ -20,12 +20,7 @@
     const projection = d3.geoAlbersUsa().translate([480, 300]).scale(1000);
     const path = d3.geoPath().projection(projection);
 
-    try {
-      const geoData = await d3.json("https://sxluong.github.io/json_files/Simple.geojson");
-      console.log("GeoJSON loaded successfully", geoData);
-    } catch (error) {
-      console.error("Failed to load GeoJSON", error);
-    }
+    const geoData = await d3.json("https://sxluong.github.io/json_files/Simple.geojson");
     const nestedData = await d3.json("https://sxluong.github.io/json_files/nested_data.json");
     allData = nestedData;
     
