@@ -7,9 +7,6 @@ To aid interpretation, we've included a legend below the map explaining the colo
 Our development processes consisted of coming up with interesting questions and trying to find a dataset that would make the visualization possible. Before working on the website, we first needed to find and clean a dataset we found on median incomes for each state. Afterwards, we had to look for the geojson file of the United States. After cleaning the dataset and making it usable, we started developing the choropleth map. 
 
 
-For the project, Lewis Weng, Steven Luoung, and Eshaan Roy joined a Zoom meeting to discuss the project. Eshaan looked for the data online, while Lewis and Steven worked together to clean the data. Steven and Lewis worked on the choropleth map and Steven worked on the interactive functionalities. Steven was the most familiar with javascript and frontend development, so he led the coding. All of us contributed towards website hosting. Out of the 30 hours we spent on the project, working with D3 and coding the website took the longest. For the write-up, Lewis and Eshaan worked on it together.
-
-
 For our project, we convened on a Zoom call to brainstorm and sourcing data. Eshaan was in charge of looking for data while Lewis and Steven collaborated on extensive data cleaning tasks. Originally, the data was an excel spreadsheet, so we utilized the pandas library to clean the data by removing filtering columns and format it in a way in which we can convert it into a json file. We had to transpose the data and extrapolate each year to make it into a nested json keyed by year then state. Subsequently, Steven and Lewis tackled the development of the choropleth map, with Steven spearheading the implementation of interactive features. Given Steven's proficiency in JavaScript and frontend development, he assumed a leadership role in coding activities.
 
 
