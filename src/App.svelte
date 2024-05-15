@@ -10,7 +10,7 @@
   
   $: sliderLabel = `Year: ${sliderYear}`;
 
-  const colorScale = d3.scaleSequential(d3.interpolateBlues);
+  const colorScale = d3.scaleSequential(d3.interpolateGreens);
 
   onMount(async () => {
     svg = d3.select("#map").append("svg")
