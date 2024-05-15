@@ -1,0 +1,81 @@
+html, body {
+	height: 100%;  
+	margin: 0;     
+	padding: 0;    
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	background-color: antiquewhite;     
+  }
+  
+#map {
+  width: 605%;  
+  height: 60%; 
+  margin: auto
+}
+
+
+input {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  cursor: pointer;
+}
+
+.overlay {
+  font-size: 0.9em;
+  background-color: antiquewhite;
+  position: absolute;
+  min-width:250px;
+  width: 15%;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  z-index: 3;
+}
+
+
+label {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+.title-container {
+  display: flex;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold;
+  font-size: 20px; 
+  color: #333; 
+}
+
+#map {
+  width: 960px;
+  height: 600px;
+}
+
+.tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px auto; 
+  width: fit-content;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: 'Georgia', serif;
+  font-size: 18px; 
+  color: #333; 
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); 
+}
+
+.legend-label {
+  font-size: 12px;
+  font-family: sans-serif;
+}
